@@ -20,7 +20,7 @@ Darkblue PLD theme for bootsplash.
 Motyw PLD darkblue do bootsplash.
 
 %prep
-%setup -q
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
