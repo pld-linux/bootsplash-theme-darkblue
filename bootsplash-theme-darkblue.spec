@@ -1,4 +1,3 @@
-
 Summary:	Bootsplash - darkblue theme
 Summary(pl):	Bootsplash - motyw darkblue
 Name:		bootsplash-theme-darkblue
@@ -23,8 +22,6 @@ Motyw PLD darkblue do bootsplash.
 %prep
 %setup -q
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
 THEME_DIR=$RPM_BUILD_ROOT%{_sysconfdir}/bootsplash/themes/darkblue
@@ -38,10 +35,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{_sysconfdir}/bootsplash/themes/darkblue/
-%dir %{_sysconfdir}/bootsplash/themes/darkblue/animations
-%{_sysconfdir}/bootsplash/themes/darkblue/animations/*
-%dir %{_sysconfdir}/bootsplash/themes/darkblue/config
-%{_sysconfdir}/bootsplash/themes/darkblue/config/*
-%dir %{_sysconfdir}/bootsplash/themes/darkblue/images
-%{_sysconfdir}/bootsplash/themes/darkblue/images/*
+%{_sysconfdir}/bootsplash/themes/darkblue
