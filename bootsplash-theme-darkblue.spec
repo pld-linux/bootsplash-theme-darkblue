@@ -5,7 +5,7 @@ Summary:	Bootsplash - darkblue theme
 Summary(pl):	Bootsplash - motyw darkblue
 Name:		bootsplash-theme-%{theme}
 Version:	1.2
-Release:	1
+Release:	2
 Epoch:		0
 License:	GPL v2
 Group:		Themes
