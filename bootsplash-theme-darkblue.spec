@@ -2,7 +2,7 @@
 %define	theme	darkblue
 
 Summary:	Bootsplash - darkblue theme
-Summary(pl.UTF-8):   Bootsplash - motyw darkblue
+Summary(pl.UTF-8):	Bootsplash - motyw darkblue
 Name:		bootsplash-theme-%{theme}
 Version:	1.2
 Release:	2
