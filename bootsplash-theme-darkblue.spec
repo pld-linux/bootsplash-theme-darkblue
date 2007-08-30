@@ -12,6 +12,7 @@ Group:		Themes
 Source0:	%{name}-%{version}.tar.gz
 # Source0-md5:	a5b64219f284ff772a4f3ebcd4f2bc34
 URL:		http://cvs.pld-linux.org/cgi-bin/cvsweb/pld-artwork/bootsplash/%{theme}/
+Provides:	bootsplash-theme
 Requires:	bootsplash
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
